@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container1{
+    width: 100%;
+    height: 100%;
+    background-color: #6883BC;
+    /* background-image: linear-gradient(270deg, #8EC5FC 0%, #E0C3FC 100%); */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding-bottom: 5px;
+
+}
+.header{
+    width: 100%;
+    height: 200px;
+    /* margin:0  20px 20px 20px; */
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    /* border: 4px solid white; */
+    
+    
+}
+.nit{
+    height: 127px;
+    background-color: rgb(119, 119, 186);
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.css1{
+    width: 166px;
+    height: 120px;
+}
+
+.css1 img{
+    width: 157px;
+    height: 120px;
+    /* margin-top:13px ; */
+}
+
+.nit-logo{
+    width: 144px;
+    height: 120px;
+}
+.nit-logo img{
+    width: 137px;
+    height: 120px;
+}
+.vision{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #4158D0;
+    background-image: linear-gradient(90deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    font-size: 20px;
+    color: white;
+    height: 45px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-btn{
+    margin: 5px;
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.view
+{
+    height:600px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content:space-between ;
+}
+.post{
+    width:60% ;
+    margin: 10px;
+    background-color: rgb(231, 219, 231);
+    padding: 5px;
+}
+.comments{
+    width: 40%;
+    margin: 10px;
+    background-color: rgb(188, 184, 188);
+    padding: 5px;
+}
+.post .personal{
+    margin: 5px;
+    height: 65px;
+    background-color: rgb(255, 255, 255);
+}
+.post .personal p{
+    height: 25px;
+    border-radius: 5px;
+    /* background-color:white ; */
+    margin: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.display{
+    margin: 5px;
+    height: 420px;
+    background-color: white;
+    padding: 15px;
+    border: 5px solid blue;
+    font-size: 20px;
+}
+.like{
+    margin: 5px;
+    height: 65px;
+    background-color: transparent;
+    border-radius: 10px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.like .btn2{
+    width: 100px;
+    height: 100%;
+    color: white;
+    background-color: rgb(194, 30, 57);
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.like .btn21{
+    width: 100px;
+    height: 100%;
+    color: white;
+    background-color: rgb(194, 30, 57);
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    display: none;
+
+}
+.like .btn22{
+    width: 100px;
+    height: 100%;
+    color: white;
+    background-color: rgb(62, 22, 224);
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    /* display: none; */
+}
+.comment1{
+    max-height: 1000px;
+    height: 340px;
+    background-color: transparent;
+    border-radius: 5px;
+    margin: 4px;
+}
+.comment2{
+    margin: 5px;
+    width: 550px;
+    height: 280px;
+    border-radius: 5px;
+    resize: none;
+}
+.add-btn
+{
+    margin: 5px;
+    height: 65px;
+    background-color: transparent;
+    border-radius: 10px;
+    display: flex;
+    justify-content:right;
+    align-items:baseline;
+}
+.add-comment{
+    width: 235px;
+    height: 40px;
+    color: white;
+    background-color: rgb(55, 63, 173);
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.more-comment{
+    height:216px ;
+    background-color: transparent;
+    border-radius: 5px;
+    margin: 4px;
+}
+.more-comment .first{
+    margin: 4px;
+    background-color: white;
+    padding: 3px;
+    font-size: 20px;
+    text-align: center;
+}
+.second{
+    margin: 4px;
+    height: 30px;
+    background-color: white;
+    padding: 3px;
+    font-size: 20px;
+    text-align: left;
+    border-radius:4px;
+
+}
